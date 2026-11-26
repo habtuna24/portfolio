@@ -1,106 +1,102 @@
-# HABTUNA 24 – Portfolio
+<div align="center">
 
-Personal portfolio of **Habtamu Teklehaymanot**, Computer Engineering student at Bahir Dar University.
-Built with plain HTML5, CSS3 and vanilla JavaScript. No frameworks, no build step, no database.
+# 👋 Hi, I'm Habtamu Teklehaymanot
 
-## Folder structure
+### Computer Engineering Student at Bahir Dar University 🇪🇹
 
-```
-habtuna-portfolio/
-├── index.html
-├── css/style.css
-├── js/script.js
-├── images/
-│   ├── favicon.svg
-│   ├── profile.jpg        (placeholder – replace)
-│   ├── project-1.png      (placeholder – replace)
-│   ├── project-2.png      (placeholder – replace)
-│   └── project-3.png      (placeholder – replace)
-├── documents/Habtamu-CV.pdf   (placeholder – replace)
-└── README.md
-```
+[![Live Website](https://img.shields.io/badge/Live_Website-Visit-5146df?style=for-the-badge)](https://habtuna24.github.io/portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/habtamu-teklehaymanot-90222725a)
+[![Telegram](https://img.shields.io/badge/Telegram-Message-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/habtuna24)
 
-## 1. Fill in your details (one place only)
+</div>
 
-Open `js/script.js` and edit the `SITE_CONFIG` block at the top:
+---
 
-| Field | What to put |
-|-------|-------------|
-| `github` | Your profile URL. Pre-filled with `https://github.com/habtuna24` – **verify it is correct** |
-| `email`, `phone`, `telegram` | Already filled in with your details |
-| `linkedin` | Add your profile URL. While empty, its link shows as disabled |
-| `formEndpoint` | Optional form service URL (e.g. Formspree) so the contact form really sends |
-| `projects.projectN.github / demo` | Repository and live-demo URLs. Empty = disabled button |
-| `projects.projectN.status` | `"completed"` or `"progress"` |
+## 🧑‍💻 About Me
 
-Nothing was invented: anything not supplied is marked as a placeholder.
+I enjoy web development, working with databases and turning ideas into working projects. Mathematics and problem-solving shape the way I approach programming. Outside of code, I'm a singer 🎤.
 
-Also confirm in `index.html`: relevant coursework (Education section) and the language used in Project 3.
+🤝 **Open to:** internships, collaboration and freelance work.
 
-**Themes:** the sun/moon button in the top bar switches between dark and light. The choice is remembered on that device. Dark is the default.
+## 🚀 Projects
 
-## 2. Replace placeholder files (keep the same names)
+### 🎓 University Student Management System
+This is a web-based version of our Student Management System, a console-based C++ data structures project. I rebuilt it to make it more interactive and visual.
 
-- `images/profile.jpg` – square photo, at least 600×600 px
-- `images/project-1.png`, `project-2.png`, `project-3.png` – screenshots, 16:9 (e.g. 1280×720)
-- `documents/Habtamu-CV.pdf` – your real CV
+<p>
+  <img src="images/project-1-2.png" width="30%" alt="Student system dashboard">
+  <img src="images/project-1-3.png" width="30%" alt="Student records page">
+  <img src="images/project-1-4.png" width="30%" alt="Operation history page">
+</p>
 
-## 3. Run locally in Termux
+### 📝 Personal Notes Management Web Application
+A web application for creating, organizing and managing personal notes.
 
-First time only:
+<p>
+  <img src="images/project-2-1.png" width="30%" alt="List of notes">
+  <img src="images/project-2-2.png" width="30%" alt="Notes folders">
+  <img src="images/project-2-3.png" width="30%" alt="Note editor">
+</p>
 
-```bash
-pkg update
-pkg install nodejs git
-```
+### 🗂️ Student Management System (Data Structures)
+An academic **C++** project that organizes and manipulates student information using data structures.
 
-Option A – your existing Node.js server: put the `habtuna-portfolio` folder where your server serves static files, or point it at this folder.
+<p>
+  <img src="images/project_3-1.jpg" width="45%" alt="Student system main menu">
+  <img src="images/project_3-5.jpg" width="45%" alt="Student records table">
+</p>
 
-Option B – a zero-setup static server:
+### 💊 Easy-Pharma Inventory System
+Our second-year **Intermediate Programming (C++)** course project. It uses file handling to save records permanently.
 
-```bash
-cd ~/habtuna-portfolio
-npx http-server -p 8080
-```
+<p>
+  <img src="images/Screenshot_20261126-082409_1.jpg" width="45%" alt="Easy-Pharma main menu">
+  <img src="images/Screenshot_20261126-082443_1.jpg" width="45%" alt="Adding a medicine in Easy-Pharma">
+</p>
 
-Option C – Python, if installed (`pkg install python`):
+### 🏥 SmartCare Ethiopia
+A web-based version of my Easy-Pharma console app. I rebuilt it to make it more visual and interactive.
 
-```bash
-cd ~/habtuna-portfolio
-python -m http.server 8080
-```
+<p>
+  <img src="images/project-4-1.png" width="30%" alt="SmartCare overview">
+  <img src="images/project-4-2.png" width="30%" alt="Patient registration">
+  <img src="images/project-4-3.png" width="30%" alt="Medicine inventory">
+</p>
 
-Then open **http://localhost:8080** in your phone browser. (Opening `index.html` directly also works, but a server is closer to how it behaves online.)
+## 🛠️ Technical Skills
 
-## 4. Publish on GitHub Pages
+| Area | Skills |
+|------|--------|
+| **Frontend** | HTML, CSS, JavaScript |
+| **Backend** | Node.js |
+| **Databases** | SQL, Microsoft SQL Server, SQLite |
+| **Programming** | C++ |
+| **Tools** | Git, GitHub, Termux |
+| **Concepts** | Data structures, algorithms, database design, ER diagrams, problem-solving |
 
-1. Create a new **public** repository on github.com named `habtuna-portfolio` (no README, since you already have one).
-2. In Termux:
+## 🌱 Currently Learning
 
-```bash
-cd ~/habtuna-portfolio
-git init
-git add .
-git commit -m "Initial portfolio"
-git branch -M main
-git remote add origin https://github.com/habtuna24/habtuna-portfolio.git
-git push -u origin main
-```
+Advanced JavaScript • Backend development • Database management • Data structures and algorithms • Software engineering • Application development
 
-GitHub asks for your username and a **Personal Access Token** as the password (GitHub → Settings → Developer settings → Personal access tokens). Passwords no longer work for git pushes.
+## ✨ Portfolio Features
 
-3. On GitHub open the repo → **Settings → Pages**.
-4. Under **Build and deployment**, set Source to *Deploy from a branch*, Branch `main`, folder `/ (root)`, then Save.
-5. Wait 1–2 minutes. Your site will be at `https://habtuna24.github.io/habtuna-portfolio/` (adjust if your username differs).
+- 📱 Layout for phones and desktops
+- 🌙 Dark and light themes
+- 🖼️ Swipeable project image galleries
+- 🔍 Project filtering by technology
+- 📄 CV download
+- ✉️ Contact section
 
-To update later: edit files, then `git add . && git commit -m "Update" && git push`.
+This website is built with **HTML5**, **CSS3** and **vanilla JavaScript**.
 
-## 5. Test checklist
+## 📬 Contact
 
-- Menu opens/closes on a phone-width window; every nav link scrolls to its section.
-- Active nav item changes as you scroll.
-- Project filters show/hide cards; "All" restores them.
-- Disabled links (no URL yet) cannot be clicked; real ones open in a new tab.
-- Contact form: with nothing configured it says nothing was sent; with `email` set it opens your email app; with `formEndpoint` set it posts and reports the real result.
-- Back-to-top button appears after scrolling and works.
-- With "reduce motion" enabled in your device settings, scroll animations are off.
+📧 [hteklye005@gmail.com](mailto:hteklye005@gmail.com)
+
+---
+
+<div align="center">
+
+⭐ **Thanks for visiting my portfolio!**
+
+</div>

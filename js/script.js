@@ -18,7 +18,7 @@
     github: "https://github.com/habtuna24",   // TODO: verify this profile URL is correct
     email: "hteklye005@gmail.com",
     phone: "0984797673",                      // shown as typed; the call link converts 09... to +2519...
-    linkedin: "",                             // e.g. "https://www.linkedin.com/in/your-id"
+    linkedin: "https://www.linkedin.com/in/habtamu-teklehaymanot-90222725a",                             // e.g. "https://www.linkedin.com/in/your-id"
     telegram: "https://t.me/habtuna24",
 
     // Optional: a form service endpoint (e.g. Formspree: "https://formspree.io/f/xxxxxxx").
